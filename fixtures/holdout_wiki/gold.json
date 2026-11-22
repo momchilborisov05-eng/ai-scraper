@@ -1,0 +1,98 @@
+[
+ {
+  "rank": 1,
+  "city": "Berlin",
+  "population": 685026,
+  "founded": 997
+ },
+ {
+  "rank": 2,
+  "city": "Lisbon",
+  "population": 3583206,
+  "founded": 1207
+ },
+ {
+  "rank": 3,
+  "city": "Austin",
+  "population": 2910593,
+  "founded": 1193
+ },
+ {
+  "rank": 4,
+  "city": "Toronto",
+  "population": 510809,
+  "founded": 1617
+ },
+ {
+  "rank": 5,
+  "city": "Sofia",
+  "population": 1432672,
+  "founded": 1022
+ },
+ {
+  "rank": 6,
+  "city": "Warsaw",
+  "population": 2837580,
+  "founded": 1838
+ },
+ {
+  "rank": 7,
+  "city": "Denver",
+  "population": 1923046,
+  "founded": 1261
+ },
+ {
+  "rank": 8,
+  "city": "Dublin",
+  "population": 2384879,
+  "founded": 1195
+ },
+ {
+  "rank": 9,
+  "city": "Madrid",
+  "population": 840968,
+  "founded": 1095
+ },
+ {
+  "rank": 10,
+  "city": "Oslo",
+  "population": 2101011,
+  "founded": 1090
+ },
+ {
+  "rank": 11,
+  "city": "Prague",
+  "population": 3393473,
+  "founded": 1027
+ },
+ {
+  "rank": 12,
+  "city": "Seattle",
+  "population": 485505,
+  "founded": 1009
+ },
+ {
+  "rank": 13,
+  "city": "Vienna",
+  "population": 3837169,
+  "founded": 1488
+ },
+ {
+  "rank": 14,
+  "city": "Zurich",
+  "population": 1273622,
+  "founded": 1671
+ },
+ {
+  "rank": 15,
+  "city": "Boston",
+  "population": 2471068,
+  "founded": 1331
+ },
+ {
+  "rank": 16,
+  "city": "Berlin II",
+  "population": 1419616,
+  "founded": 1268
+ }
+]

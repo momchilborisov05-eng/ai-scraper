@@ -1,0 +1,100 @@
+[
+  {
+    "address": "5923 Birch Way, Oslo",
+    "price": 195000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1950
+  },
+  {
+    "address": "3879 Maple Ave, Zurich",
+    "price": 1230000,
+    "beds": 3,
+    "baths": 3,
+    "sqft": 1480
+  },
+  {
+    "address": "2784 Pine Rd, Austin",
+    "price": 790000,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 1970
+  },
+  {
+    "address": "218 Maple Ave, Seattle",
+    "price": 965000,
+    "beds": 5,
+    "baths": 3,
+    "sqft": 2840
+  },
+  {
+    "address": "2237 Birch Way, Boston",
+    "price": 1040000,
+    "beds": 4,
+    "baths": 1,
+    "sqft": 560
+  },
+  {
+    "address": "7765 Elm Dr, Zurich",
+    "price": 430000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 2520
+  },
+  {
+    "address": "6217 Pine Rd, Vienna",
+    "price": 815000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 2300
+  },
+  {
+    "address": "4285 Willow Ct, Dublin",
+    "price": 845000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 3020
+  },
+  {
+    "address": "786 Elm Dr, Boston",
+    "price": 1240000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1200
+  },
+  {
+    "address": "2143 Lakeview Blvd, Prague",
+    "price": 1095000,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 1130
+  },
+  {
+    "address": "3612 Birch Way, Denver",
+    "price": 420000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1350
+  },
+  {
+    "address": "4296 Birch Way, Denver",
+    "price": 330000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 940
+  },
+  {
+    "address": "4642 Oak St, Toronto",
+    "price": 1225000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 3070
+  },
+  {
+    "address": "8247 Elm Dr, Dublin",
+    "price": 830000,
+    "beds": 2,
+    "baths": 3,
+    "sqft": 1570
+  }
+]

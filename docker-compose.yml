@@ -1,0 +1,20 @@
+services:
+  ai-scraper:
+    build: .
+    image: ai-scraper:latest
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false          # without it: heuristic and induction modes only, no API calls
+    volumes:
+      - ai-scraper-data:/data    # SQLite cache of Claude responses (content-hash keyed)
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+volumes:
+  ai-scraper-data:

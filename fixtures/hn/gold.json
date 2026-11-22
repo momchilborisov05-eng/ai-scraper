@@ -1,0 +1,212 @@
+[
+ {
+  "title": "Show HN: A typed queue in Rust",
+  "url": "https://blog.example.org/478",
+  "points": 248,
+  "author": "johnson",
+  "comments": 228
+ },
+ {
+  "title": "A tiny scheduler in Zig",
+  "url": "https://arxiv.org/292",
+  "points": 417,
+  "author": "dijkstra",
+  "comments": 18
+ },
+ {
+  "title": "A fast queue in Zig",
+  "url": "https://lwn.net/817",
+  "points": 547,
+  "author": "turing",
+  "comments": 270
+ },
+ {
+  "title": "A tiny router in Python",
+  "url": "https://github.com/300",
+  "points": 323,
+  "author": "hopper",
+  "comments": 335
+ },
+ {
+  "title": "Ask HN: A safe cache in C",
+  "url": "https://lwn.net/130",
+  "points": 385,
+  "author": "turing",
+  "comments": 51
+ },
+ {
+  "title": "A streaming parser in Go",
+  "url": "https://arxiv.org/811",
+  "points": 735,
+  "author": "wilson",
+  "comments": 218
+ },
+ {
+  "title": "Ask HN: A tiny linter in Rust",
+  "url": "https://arxiv.org/658",
+  "points": 887,
+  "author": "johnson",
+  "comments": 135
+ },
+ {
+  "title": "Ask HN: A modern queue in Zig",
+  "url": "https://arxiv.org/845",
+  "points": 624,
+  "author": "lamarr",
+  "comments": 152
+ },
+ {
+  "title": "Show HN: A typed client in C",
+  "url": "https://blog.example.org/873",
+  "points": 401,
+  "author": "turing",
+  "comments": 163
+ },
+ {
+  "title": "A embedded queue in C",
+  "url": "https://lwn.net/374",
+  "points": 745,
+  "author": "wilson",
+  "comments": 137
+ },
+ {
+  "title": "Show HN: A modern bundler in Python",
+  "url": "https://blog.example.org/422",
+  "points": 602,
+  "author": "johnson",
+  "comments": 284
+ },
+ {
+  "title": "Show HN: A embedded renderer in Zig",
+  "url": "https://lwn.net/507",
+  "points": 100,
+  "author": "johnson",
+  "comments": 258
+ },
+ {
+  "title": "A fast renderer in Go",
+  "url": "https://arxiv.org/627",
+  "points": 522,
+  "author": "hamilton",
+  "comments": 142
+ },
+ {
+  "title": "A safe logger in Go",
+  "url": "https://blog.example.org/628",
+  "points": 229,
+  "author": "hamilton",
+  "comments": 393
+ },
+ {
+  "title": "A modern parser in C",
+  "url": "https://lwn.net/605",
+  "points": 325,
+  "author": "goldberg",
+  "comments": 344
+ },
+ {
+  "title": "A fast parser in C",
+  "url": "https://github.com/188",
+  "points": 624,
+  "author": "wilson",
+  "comments": 298
+ },
+ {
+  "title": "A tiny router in Rust",
+  "url": "https://arxiv.org/411",
+  "points": 302,
+  "author": "lamarr",
+  "comments": 299
+ },
+ {
+  "title": "A modern cache in Go",
+  "url": "https://blog.example.org/565",
+  "points": 728,
+  "author": "hamilton",
+  "comments": 75
+ },
+ {
+  "title": "Show HN: A embedded linter in Zig",
+  "url": "https://lwn.net/646",
+  "points": 797,
+  "author": "ritchie",
+  "comments": 64
+ },
+ {
+  "title": "Show HN: A safe bundler in Python",
+  "url": "https://github.com/473",
+  "points": 279,
+  "author": "vanrossum",
+  "comments": 158
+ },
+ {
+  "title": "A embedded logger in Rust",
+  "url": "https://github.com/657",
+  "points": 617,
+  "author": "johnson",
+  "comments": 9
+ },
+ {
+  "title": "A fast linter in Rust",
+  "url": "https://github.com/601",
+  "points": 105,
+  "author": "hopper",
+  "comments": 187
+ },
+ {
+  "title": "A fast client in C",
+  "url": "https://blog.example.org/403",
+  "points": 297,
+  "author": "hopper",
+  "comments": 172
+ },
+ {
+  "title": "A tiny parser in Zig",
+  "url": "https://github.com/953",
+  "points": 192,
+  "author": "lovelace",
+  "comments": 90
+ },
+ {
+  "title": "A safe bundler in Zig",
+  "url": "https://lwn.net/126",
+  "points": 106,
+  "author": "johnson",
+  "comments": 393
+ },
+ {
+  "title": "Ask HN: A minimal scheduler in C",
+  "url": "https://github.com/633",
+  "points": 854,
+  "author": "torvalds",
+  "comments": 114
+ },
+ {
+  "title": "Show HN: A safe cache in Zig",
+  "url": "https://lwn.net/913",
+  "points": 843,
+  "author": "johnson",
+  "comments": 193
+ },
+ {
+  "title": "A async bundler in C",
+  "url": "https://lwn.net/352",
+  "points": 861,
+  "author": "lamarr",
+  "comments": 362
+ },
+ {
+  "title": "Ask HN: A fast scheduler in Go",
+  "url": "https://arxiv.org/425",
+  "points": 85,
+  "author": "turing",
+  "comments": 155
+ },
+ {
+  "title": "A async cache in Python",
+  "url": "https://arxiv.org/968",
+  "points": 6,
+  "author": "turing",
+  "comments": 341
+ }
+]

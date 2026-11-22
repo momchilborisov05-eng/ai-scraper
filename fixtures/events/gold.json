@@ -1,0 +1,74 @@
+[
+ {
+  "name": "Data Talk 2026",
+  "date": "2026-06-02",
+  "venue": "Old Library, Berlin",
+  "price": 25
+ },
+ {
+  "name": "Design Summit 2027",
+  "date": "2026-05-20",
+  "venue": "Old Library, Madrid",
+  "price": 25
+ },
+ {
+  "name": "Cloud Workshop 2027",
+  "date": "2026-01-18",
+  "venue": "Innovation Center, Seattle",
+  "price": 10
+ },
+ {
+  "name": "Design Meetup 2026",
+  "date": "2026-05-14",
+  "venue": "Old Library, Madrid",
+  "price": 25
+ },
+ {
+  "name": "Web Conference 2026",
+  "date": "2026-04-07",
+  "venue": "Co-Lab, Prague",
+  "price": 99
+ },
+ {
+  "name": "Web Talk 2026",
+  "date": "2026-08-20",
+  "venue": "Co-Lab, Sofia",
+  "price": 49
+ },
+ {
+  "name": "Web Talk 2027",
+  "date": "2026-03-16",
+  "venue": "Co-Lab, Boston",
+  "price": null
+ },
+ {
+  "name": "Web Summit 2026",
+  "date": "2026-09-03",
+  "venue": "City Hall, Berlin",
+  "price": null
+ },
+ {
+  "name": "Python Talk 2027",
+  "date": "2026-01-05",
+  "venue": "Tech Hub, Berlin",
+  "price": 15
+ },
+ {
+  "name": "Security Workshop 2026",
+  "date": "2026-05-16",
+  "venue": "Riverside Hall, Zurich",
+  "price": 10
+ },
+ {
+  "name": "Python Hackathon 2026",
+  "date": "2026-02-17",
+  "venue": "Old Library, Denver",
+  "price": null
+ },
+ {
+  "name": "Rust Meetup 2026",
+  "date": "2026-07-24",
+  "venue": "Innovation Center, Lisbon",
+  "price": 149
+ }
+]

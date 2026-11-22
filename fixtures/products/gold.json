@@ -1,0 +1,146 @@
+[
+ {
+  "name": "Apple Blade 15",
+  "price": 1783.31,
+  "rating": 3.5,
+  "reviews": 3999
+ },
+ {
+  "name": "Framework Book 14",
+  "price": 2344.84,
+  "rating": 2.6,
+  "reviews": 1166
+ },
+ {
+  "name": "Framework Air 13",
+  "price": 2429.89,
+  "rating": 3.9,
+  "reviews": 111
+ },
+ {
+  "name": "Acer Book 14",
+  "price": 1443.43,
+  "rating": 4.0,
+  "reviews": 2357
+ },
+ {
+  "name": "Framework Air 15",
+  "price": 1035.44,
+  "rating": 3.5,
+  "reviews": 932
+ },
+ {
+  "name": "Asus Swift 13",
+  "price": 1308.55,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "HP Pro 14",
+  "price": 1760.88,
+  "rating": 3.7,
+  "reviews": 3066
+ },
+ {
+  "name": "MSI Zen 13",
+  "price": 1190.32,
+  "rating": 3.2,
+  "reviews": 227
+ },
+ {
+  "name": "Apple Swift 13",
+  "price": 1488.08,
+  "rating": 2.5,
+  "reviews": 3430
+ },
+ {
+  "name": "Acer Pro 16",
+  "price": 774.88,
+  "rating": 4.3,
+  "reviews": 1046
+ },
+ {
+  "name": "Dell Pro 15",
+  "price": 1501.44,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "HP Pro 13",
+  "price": 482.14,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "Acer Blade 15",
+  "price": 1710.94,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "Acer Swift 16",
+  "price": 1295.24,
+  "rating": 4.7,
+  "reviews": 58
+ },
+ {
+  "name": "Apple Swift 14",
+  "price": 1058.08,
+  "rating": 3.5,
+  "reviews": 872
+ },
+ {
+  "name": "Lenovo Swift 13",
+  "price": 1784.77,
+  "rating": 3.6,
+  "reviews": 3045
+ },
+ {
+  "name": "Asus Air 16",
+  "price": 2426.75,
+  "rating": 3.3,
+  "reviews": 1289
+ },
+ {
+  "name": "Acer Book 14",
+  "price": 2077.2,
+  "rating": 3.4,
+  "reviews": 1891
+ },
+ {
+  "name": "Asus Swift 17",
+  "price": 2172.52,
+  "rating": 4.3,
+  "reviews": 2633
+ },
+ {
+  "name": "Lenovo Pro 16",
+  "price": 2098.94,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "Asus Blade 14",
+  "price": 544.28,
+  "rating": 3.9,
+  "reviews": 3780
+ },
+ {
+  "name": "Acer Blade 15",
+  "price": 1829.22,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "HP Air 16",
+  "price": 1877.5,
+  "rating": null,
+  "reviews": null
+ },
+ {
+  "name": "Asus Air 14",
+  "price": 2308.21,
+  "rating": 3.5,
+  "reviews": 1814
+ }
+]

@@ -1,0 +1,254 @@
+[
+ {
+  "title": "The Burning Theory: Essays",
+  "price": 28.72,
+  "rating": 2,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-burning-theory-essays/index.html"
+ },
+ {
+  "title": "The Lonely Kingdom: A Memoir",
+  "price": 15.83,
+  "rating": 2,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-lonely-kingdom-a-memoir/index.html"
+ },
+ {
+  "title": "The Burning Meadow: Poems",
+  "price": 16.99,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-burning-meadow-poems/index.html"
+ },
+ {
+  "title": "The Paper Garden: A Novel",
+  "price": 45.48,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-paper-garden-a-novel/index.html"
+ },
+ {
+  "title": "The Electric Meadow: Poems",
+  "price": 28.31,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-electric-meadow-poems/index.html"
+ },
+ {
+  "title": "The Winter Theory: Stories",
+  "price": 27.01,
+  "rating": 4,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-winter-theory-stories/index.html"
+ },
+ {
+  "title": "The Lonely Meadow: A Novel",
+  "price": 40.26,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-lonely-meadow-a-novel/index.html"
+ },
+ {
+  "title": "The Secret Mirror: A Memoir",
+  "price": 59.3,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-secret-mirror-a-memoir/index.html"
+ },
+ {
+  "title": "The Quiet River: Essays",
+  "price": 46.24,
+  "rating": 4,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-quiet-river-essays/index.html"
+ },
+ {
+  "title": "The Paper Kingdom: Stories",
+  "price": 38.54,
+  "rating": 1,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-paper-kingdom-stories/index.html"
+ },
+ {
+  "title": "The Glass Engine: Poems",
+  "price": 30.82,
+  "rating": 1,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-glass-engine-poems/index.html"
+ },
+ {
+  "title": "The Secret Atlas: A Novel",
+  "price": 23.08,
+  "rating": 1,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-secret-atlas-a-novel/index.html"
+ },
+ {
+  "title": "The Silent Machine: A Novel",
+  "price": 55.43,
+  "rating": 4,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-silent-machine-a-novel/index.html"
+ },
+ {
+  "title": "The Iron Engine: A Novel",
+  "price": 27.17,
+  "rating": 1,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-iron-engine-a-novel/index.html"
+ },
+ {
+  "title": "The Broken Garden: Poems",
+  "price": 9.43,
+  "rating": 2,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-broken-garden-poems/index.html"
+ },
+ {
+  "title": "The Secret Empire: A Memoir",
+  "price": 42.65,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-secret-empire-a-memoir/index.html"
+ },
+ {
+  "title": "The Little Compass: Essays",
+  "price": 58.27,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-little-compass-essays/index.html"
+ },
+ {
+  "title": "The Burning Garden: A Novel",
+  "price": 53.21,
+  "rating": 1,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-burning-garden-a-novel/index.html"
+ },
+ {
+  "title": "The Quiet Signal: A Memoir",
+  "price": 54.59,
+  "rating": 3,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-quiet-signal-a-memoir/index.html"
+ },
+ {
+  "title": "The Golden Island: Poems",
+  "price": 34.14,
+  "rating": 4,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-golden-island-poems/index.html"
+ },
+ {
+  "title": "The Winter Meadow: Poems",
+  "price": 32.62,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-winter-meadow-poems/index.html"
+ },
+ {
+  "title": "The Lonely Engine: A Memoir",
+  "price": 18.09,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-lonely-engine-a-memoir/index.html"
+ },
+ {
+  "title": "The Winter Meadow: Stories",
+  "price": 42.25,
+  "rating": 1,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-winter-meadow-stories/index.html"
+ },
+ {
+  "title": "The Little Compass: Stories",
+  "price": 21.51,
+  "rating": 3,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-little-compass-stories/index.html"
+ },
+ {
+  "title": "The Iron Compass: A Novel",
+  "price": 44.95,
+  "rating": 4,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-iron-compass-a-novel/index.html"
+ },
+ {
+  "title": "The Crimson Compass: A Memoir",
+  "price": 15.24,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-crimson-compass-a-memoir/index.html"
+ },
+ {
+  "title": "The Secret Kingdom: Poems",
+  "price": 43.91,
+  "rating": 1,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-secret-kingdom-poems/index.html"
+ },
+ {
+  "title": "The Silent Harbor: Poems",
+  "price": 57.13,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-silent-harbor-poems/index.html"
+ },
+ {
+  "title": "The Wild Compass: Stories",
+  "price": 38.83,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-wild-compass-stories/index.html"
+ },
+ {
+  "title": "The Electric Atlas: Essays",
+  "price": 36.06,
+  "rating": 2,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-electric-atlas-essays/index.html"
+ },
+ {
+  "title": "The Last Machine: Stories",
+  "price": 57.81,
+  "rating": 5,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-last-machine-stories/index.html"
+ },
+ {
+  "title": "The Hidden Voyage: A Novel",
+  "price": 43.98,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-hidden-voyage-a-novel/index.html"
+ },
+ {
+  "title": "The Lonely Mirror: A Novel",
+  "price": 33.46,
+  "rating": 3,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-lonely-mirror-a-novel/index.html"
+ },
+ {
+  "title": "The Golden Forest: Stories",
+  "price": 11.6,
+  "rating": 5,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-golden-forest-stories/index.html"
+ },
+ {
+  "title": "The Iron Voyage: Poems",
+  "price": 40.65,
+  "rating": 3,
+  "in_stock": true,
+  "url": "https://books.example.test/catalogue/the-iron-voyage-poems/index.html"
+ },
+ {
+  "title": "The Lonely Mirror: A Memoir",
+  "price": 22.28,
+  "rating": 2,
+  "in_stock": false,
+  "url": "https://books.example.test/catalogue/the-lonely-mirror-a-memoir/index.html"
+ }
+]

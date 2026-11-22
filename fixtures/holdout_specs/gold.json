@@ -1,0 +1,65 @@
+[
+ {
+  "model": "Atlas Pro6",
+  "weight_kg": 0.81,
+  "battery_hours": 17,
+  "ram_gb": 32,
+  "price": 1249
+ },
+ {
+  "model": "Atlas Lite7",
+  "weight_kg": 2.38,
+  "battery_hours": 16,
+  "ram_gb": 64,
+  "price": 999
+ },
+ {
+  "model": "Nova Pro9",
+  "weight_kg": 2.56,
+  "battery_hours": 15,
+  "ram_gb": 64,
+  "price": 2349
+ },
+ {
+  "model": "Zephyr Lite3",
+  "weight_kg": 1.48,
+  "battery_hours": 6,
+  "ram_gb": 8,
+  "price": 2249
+ },
+ {
+  "model": "Nova Pro6",
+  "weight_kg": 1.67,
+  "battery_hours": 12,
+  "ram_gb": 8,
+  "price": 2399
+ },
+ {
+  "model": "Atlas Pro1",
+  "weight_kg": 1.52,
+  "battery_hours": 22,
+  "ram_gb": 64,
+  "price": 1749
+ },
+ {
+  "model": "Zephyr Lite4",
+  "weight_kg": 1.75,
+  "battery_hours": 20,
+  "ram_gb": 16,
+  "price": 2199
+ },
+ {
+  "model": "Zephyr S1",
+  "weight_kg": 2.0,
+  "battery_hours": 24,
+  "ram_gb": 64,
+  "price": 3099
+ },
+ {
+  "model": "Atlas X3",
+  "weight_kg": 1.08,
+  "battery_hours": 10,
+  "ram_gb": 16,
+  "price": 2949
+ }
+]

@@ -1,0 +1,46 @@
+{
+  "request": "job title, company, location, minimum salary, remote (yes/no), job url",
+  "notes": "Remote is a badge that only exists on some cards (absence = false); salary is a range; promo cards.",
+  "schema": {
+    "description": "job title, company, location, minimum salary, remote (yes/no), job url",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "description": "job title"
+      },
+      {
+        "name": "company",
+        "type": "string",
+        "description": "company"
+      },
+      {
+        "name": "location",
+        "type": "string",
+        "description": "city"
+      },
+      {
+        "name": "salary_min",
+        "type": "number",
+        "description": "lower end of the salary range"
+      },
+      {
+        "name": "remote",
+        "type": "boolean",
+        "description": "remote job"
+      },
+      {
+        "name": "url",
+        "type": "url",
+        "description": "job posting url"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://jobs.example.test/search?page=1",
+      "file": "page1.html"
+    }
+  ]
+}

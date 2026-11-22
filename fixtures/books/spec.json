@@ -1,0 +1,49 @@
+{
+  "request": "book title, price in GBP, star rating (1-5), in stock (yes/no), product page url",
+  "notes": "Full title only in a@title (link text is truncated); rating only in a class name; 3 pages via next link.",
+  "schema": {
+    "description": "book title, price in GBP, star rating (1-5), in stock (yes/no), product page url",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "description": "full book title"
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "price in GBP"
+      },
+      {
+        "name": "rating",
+        "type": "integer",
+        "description": "star rating 1-5"
+      },
+      {
+        "name": "in_stock",
+        "type": "boolean",
+        "description": "whether it is in stock"
+      },
+      {
+        "name": "url",
+        "type": "url",
+        "description": "product page url"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://books.example.test/catalogue/page-1.html",
+      "file": "page1.html"
+    },
+    {
+      "url": "https://books.example.test/catalogue/page-2.html",
+      "file": "page2.html"
+    },
+    {
+      "url": "https://books.example.test/catalogue/page-3.html",
+      "file": "page3.html"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "request": "restaurant name, cuisine, rating, review count, price level",
+  "notes": "A plain table; review counts abbreviated ('1.2k'); price level is a string of $ signs.",
+  "schema": {
+    "description": "restaurant name, cuisine, rating, review count, price level",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "description": "restaurant"
+      },
+      {
+        "name": "cuisine",
+        "type": "string",
+        "description": "cuisine"
+      },
+      {
+        "name": "rating",
+        "type": "number",
+        "description": "rating out of 5"
+      },
+      {
+        "name": "reviews",
+        "type": "integer",
+        "description": "number of reviews"
+      },
+      {
+        "name": "price_level",
+        "type": "string",
+        "description": "price level as $ signs"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://eats.example.test/city/1",
+      "file": "page1.html"
+    }
+  ]
+}

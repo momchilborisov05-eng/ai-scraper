@@ -1,0 +1,92 @@
+[
+ {
+  "repo": "dijkstra / portable-linter",
+  "description": "A embedded client for humans",
+  "language": "Go",
+  "stars": 66
+ },
+ {
+  "repo": "lovelace / typed-queue",
+  "description": "A modern logger for humans",
+  "language": null,
+  "stars": 143
+ },
+ {
+  "repo": "lovelace / embedded-renderer",
+  "description": "A streaming client for the web",
+  "language": "Python",
+  "stars": 31700
+ },
+ {
+  "repo": "mccarthy / async-parser",
+  "description": "A tiny linter for servers",
+  "language": "Rust",
+  "stars": 16500
+ },
+ {
+  "repo": "lovelace / typed-router",
+  "description": "A streaming renderer for the web",
+  "language": "Python",
+  "stars": 647
+ },
+ {
+  "repo": "ritchie / embedded-logger",
+  "description": "A portable client for the web",
+  "language": "Python",
+  "stars": 9300
+ },
+ {
+  "repo": "thompson / streaming-renderer",
+  "description": "A streaming cache for servers",
+  "language": null,
+  "stars": 169
+ },
+ {
+  "repo": "torvalds / async-linter",
+  "description": "A typed linter for the web",
+  "language": "Go",
+  "stars": 57000
+ },
+ {
+  "repo": "thompson / safe-router",
+  "description": "A tiny scheduler for servers",
+  "language": null,
+  "stars": 412
+ },
+ {
+  "repo": "turing / tiny-bundler",
+  "description": "A portable router for the web",
+  "language": "TypeScript",
+  "stars": 990
+ },
+ {
+  "repo": "johnson / safe-client",
+  "description": "A fast logger for embedded devices",
+  "language": null,
+  "stars": 52700
+ },
+ {
+  "repo": "perlman / tiny-bundler",
+  "description": "A typed renderer for embedded devices",
+  "language": "Python",
+  "stars": 43400
+ },
+ {
+  "repo": "van-rossum / fast-client",
+  "description": "A tiny queue for servers",
+  "language": "TypeScript",
+  "stars": 111
+ },
+ {
+  "repo": "mccarthy / streaming-parser",
+  "description": "A embedded renderer for embedded devices",
+  "language": "Python",
+  "stars": 10400
+ },
+ {
+  "repo": "liskov / fast-router",
+  "description": "A safe cache for embedded devices",
+  "language": "Python",
+  "stars": 15700
+ }
+]

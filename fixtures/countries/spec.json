@@ -1,0 +1,36 @@
+{
+  "request": "country name, capital, population, area in km2",
+  "notes": "Three numbers per record in separate spans; one page.",
+  "schema": {
+    "description": "country name, capital, population, area in km2",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "description": "country name"
+      },
+      {
+        "name": "capital",
+        "type": "string",
+        "description": "capital city"
+      },
+      {
+        "name": "population",
+        "type": "integer",
+        "description": "population"
+      },
+      {
+        "name": "area_km2",
+        "type": "number",
+        "description": "area in square km"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://countries.example.test/simple/1",
+      "file": "page1.html"
+    }
+  ]
+}

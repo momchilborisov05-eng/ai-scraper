@@ -1,0 +1,36 @@
+[project]
+name = "ai-scraper"
+version = "2.0.0"
+description = "Evaluated structured extraction from web pages: wrapper induction from 1-2 example rows, Claude structured outputs with validation and repair, field-level precision/recall/F1 on held-out pages."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Momchil Borisov" }]
+license = { text = "MIT" }
+dependencies = ["flask>=3.0", "anthropic>=2.2.0", "requests>=2.31", "openpyxl>=3.1", "python-dotenv>=1.0"]
+
+[project.scripts]
+ai-scraper = "ai_scraper.__main__:main"
+
+[tool.setuptools.package-data]
+ai_scraper = ["web/static/*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]   # HTML fixtures in tests and long prompt strings read better unwrapped
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["ai_scraper"]
+omit = ["ai_scraper/__main__.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 80

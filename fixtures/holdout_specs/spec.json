@@ -1,0 +1,41 @@
+{
+  "request": "model, weight in kg, battery hours, memory in GB, price",
+  "notes": "HELD OUT. Definition lists: every value is a <dd> after a <dt> label, no classes on values.",
+  "schema": {
+    "description": "model, weight in kg, battery hours, memory in GB, price",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "model",
+        "type": "string",
+        "description": "model name"
+      },
+      {
+        "name": "weight_kg",
+        "type": "number",
+        "description": "weight in kg"
+      },
+      {
+        "name": "battery_hours",
+        "type": "integer",
+        "description": "battery life in hours"
+      },
+      {
+        "name": "ram_gb",
+        "type": "integer",
+        "description": "memory in GB"
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "price in USD"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://compare.example.test/laptops/1",
+      "file": "page1.html"
+    }
+  ]
+}

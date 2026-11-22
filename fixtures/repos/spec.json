@@ -1,0 +1,36 @@
+{
+  "request": "repository name, description, language, stars",
+  "notes": "Stars abbreviated ('12.3k'); language missing on some repos (null).",
+  "schema": {
+    "description": "repository name, description, language, stars",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "repo",
+        "type": "string",
+        "description": "owner / name"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "description": "description"
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "description": "main language"
+      },
+      {
+        "name": "stars",
+        "type": "integer",
+        "description": "star count"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://code.example.test/trending/1",
+      "file": "page1.html"
+    }
+  ]
+}

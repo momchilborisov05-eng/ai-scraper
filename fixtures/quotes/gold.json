@@ -1,0 +1,102 @@
+[
+ {
+  "text": "“The only way to do great work is to love what you do.”",
+  "author": "Dennis Wirth",
+  "tags": "courage"
+ },
+ {
+  "text": "“Simplicity is prerequisite for reliability.”",
+  "author": "Linus Johnson",
+  "tags": "science, friendship, change"
+ },
+ {
+  "text": "“Talk is cheap, show me the code.”",
+  "author": "Ada Turing",
+  "tags": "wisdom, inspirational, courage"
+ },
+ {
+  "text": "“Programs must be written for people to read.”",
+  "author": "Radia Liskov",
+  "tags": "books, simplicity"
+ },
+ {
+  "text": "“Premature optimization is the root of all evil.”",
+  "author": "Margaret Goldberg",
+  "tags": "life, science"
+ },
+ {
+  "text": "“Any fool can write code that a computer understands.”",
+  "author": "Adele Lamarr",
+  "tags": "friendship, inspirational, science, courage"
+ },
+ {
+  "text": "“First, solve the problem. Then, write the code.”",
+  "author": "Grace Perlman",
+  "tags": "books"
+ },
+ {
+  "text": "“Make it work, make it right, make it fast.”",
+  "author": "Linus Johnson",
+  "tags": "friendship, life, truth, books"
+ },
+ {
+  "text": "“Code is like humor: when you have to explain it, it is bad.”",
+  "author": "Tim Johnson",
+  "tags": "truth, wisdom, life"
+ },
+ {
+  "text": "“Fix the cause, not the symptom.”",
+  "author": "Radia Knuth",
+  "tags": "wisdom, truth, books, change"
+ },
+ {
+  "text": "“Simplicity is the soul of efficiency.”",
+  "author": "Frances Allen",
+  "tags": "humor, truth, love, courage"
+ },
+ {
+  "text": "“Before software can be reusable it first has to be usable.”",
+  "author": "Radia Lovelace",
+  "tags": "wisdom, change"
+ },
+ {
+  "text": "“Deleted code is debugged code.”",
+  "author": "Frances McCarthy",
+  "tags": "courage, books, change"
+ },
+ {
+  "text": "“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”",
+  "author": "Hedy Torvalds",
+  "tags": "change, humor, wisdom"
+ },
+ {
+  "text": "“The best error message is the one that never shows up.”",
+  "author": "Edsger Lamarr",
+  "tags": "simplicity, truth, inspirational"
+ },
+ {
+  "text": "“Testing leads to failure, and failure leads to understanding.”",
+  "author": "Frances Ritchie",
+  "tags": "simplicity, books, courage, humor"
+ },
+ {
+  "text": "“It always takes longer than you expect.”",
+  "author": "Alan Ritchie",
+  "tags": "inspirational, love"
+ },
+ {
+  "text": "“Weeks of coding can save you hours of planning.”",
+  "author": "Adele Hopper",
+  "tags": "courage, friendship, books, wisdom"
+ },
+ {
+  "text": "“Walking on water and developing software from a specification are easy if both are frozen.”",
+  "author": "Margaret Allen",
+  "tags": "change, truth, courage, wisdom"
+ },
+ {
+  "text": "“Simple things should be simple.”",
+  "author": "Ken Turing",
+  "tags": "change, inspirational"
+ }
+]

@@ -1,0 +1,45 @@
+{
+  "request": "story title, link url, points, author, number of comments",
+  "notes": "Each story spans two table rows (title row + subtext row) plus a spacer; 2 pages via a More link.",
+  "schema": {
+    "description": "story title, link url, points, author, number of comments",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "description": "story title"
+      },
+      {
+        "name": "url",
+        "type": "url",
+        "description": "story link"
+      },
+      {
+        "name": "points",
+        "type": "integer",
+        "description": "points"
+      },
+      {
+        "name": "author",
+        "type": "string",
+        "description": "submitter"
+      },
+      {
+        "name": "comments",
+        "type": "integer",
+        "description": "comment count"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://news.example.test/news?p=1",
+      "file": "page1.html"
+    },
+    {
+      "url": "https://news.example.test/news?p=2",
+      "file": "page2.html"
+    }
+  ]
+}

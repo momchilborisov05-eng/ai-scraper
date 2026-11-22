@@ -1,0 +1,41 @@
+{
+  "request": "topic title, replies, views, last poster, pinned (yes/no)",
+  "notes": "HELD OUT. Pinned is an emoji marker on two rows only; views use thousands separators.",
+  "schema": {
+    "description": "topic title, replies, views, last poster, pinned (yes/no)",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "topic",
+        "type": "string",
+        "description": "topic title"
+      },
+      {
+        "name": "replies",
+        "type": "integer",
+        "description": "reply count"
+      },
+      {
+        "name": "views",
+        "type": "integer",
+        "description": "view count"
+      },
+      {
+        "name": "last_poster",
+        "type": "string",
+        "description": "user who posted last"
+      },
+      {
+        "name": "pinned",
+        "type": "boolean",
+        "description": "is the topic pinned"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://forum.example.test/c/general/1",
+      "file": "page1.html"
+    }
+  ]
+}

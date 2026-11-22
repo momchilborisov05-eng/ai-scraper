@@ -1,0 +1,182 @@
+[
+ {
+  "name": "Andorra",
+  "capital": "Andorra la Vella",
+  "population": 84000,
+  "area_km2": 468
+ },
+ {
+  "name": "Austria",
+  "capital": "Vienna",
+  "population": 8205000,
+  "area_km2": 83858
+ },
+ {
+  "name": "Belgium",
+  "capital": "Brussels",
+  "population": 10403000,
+  "area_km2": 30510
+ },
+ {
+  "name": "Bulgaria",
+  "capital": "Sofia",
+  "population": 7148785,
+  "area_km2": 110910
+ },
+ {
+  "name": "Croatia",
+  "capital": "Zagreb",
+  "population": 4491000,
+  "area_km2": 56542
+ },
+ {
+  "name": "Cyprus",
+  "capital": "Nicosia",
+  "population": 1102677,
+  "area_km2": 9250
+ },
+ {
+  "name": "Czechia",
+  "capital": "Prague",
+  "population": 10476000,
+  "area_km2": 78866
+ },
+ {
+  "name": "Denmark",
+  "capital": "Copenhagen",
+  "population": 5484000,
+  "area_km2": 43094
+ },
+ {
+  "name": "Estonia",
+  "capital": "Tallinn",
+  "population": 1291170,
+  "area_km2": 45226
+ },
+ {
+  "name": "Finland",
+  "capital": "Helsinki",
+  "population": 5244000,
+  "area_km2": 337030
+ },
+ {
+  "name": "France",
+  "capital": "Paris",
+  "population": 64768389,
+  "area_km2": 547030
+ },
+ {
+  "name": "Germany",
+  "capital": "Berlin",
+  "population": 81802257,
+  "area_km2": 357021
+ },
+ {
+  "name": "Greece",
+  "capital": "Athens",
+  "population": 11000000,
+  "area_km2": 131940
+ },
+ {
+  "name": "Hungary",
+  "capital": "Budapest",
+  "population": 9982000,
+  "area_km2": 93030
+ },
+ {
+  "name": "Iceland",
+  "capital": "Reykjavik",
+  "population": 308910,
+  "area_km2": 103000
+ },
+ {
+  "name": "Ireland",
+  "capital": "Dublin",
+  "population": 4622917,
+  "area_km2": 70280
+ },
+ {
+  "name": "Italy",
+  "capital": "Rome",
+  "population": 60340328,
+  "area_km2": 301230
+ },
+ {
+  "name": "Latvia",
+  "capital": "Riga",
+  "population": 2217969,
+  "area_km2": 64589
+ },
+ {
+  "name": "Lithuania",
+  "capital": "Vilnius",
+  "population": 2944459,
+  "area_km2": 65200
+ },
+ {
+  "name": "Luxembourg",
+  "capital": "Luxembourg",
+  "population": 497538,
+  "area_km2": 2586
+ },
+ {
+  "name": "Malta",
+  "capital": "Valletta",
+  "population": 403000,
+  "area_km2": 316
+ },
+ {
+  "name": "Monaco",
+  "capital": "Monaco",
+  "population": 32965,
+  "area_km2": 1.95
+ },
+ {
+  "name": "Netherlands",
+  "capital": "Amsterdam",
+  "population": 16645000,
+  "area_km2": 41526
+ },
+ {
+  "name": "Norway",
+  "capital": "Oslo",
+  "population": 5009150,
+  "area_km2": 324220
+ },
+ {
+  "name": "Poland",
+  "capital": "Warsaw",
+  "population": 38500000,
+  "area_km2": 312685
+ },
+ {
+  "name": "Portugal",
+  "capital": "Lisbon",
+  "population": 10676000,
+  "area_km2": 92391
+ },
+ {
+  "name": "Romania",
+  "capital": "Bucharest",
+  "population": 21959278,
+  "area_km2": 237500
+ },
+ {
+  "name": "Slovakia",
+  "capital": "Bratislava",
+  "population": 5455000,
+  "area_km2": 48845
+ },
+ {
+  "name": "Slovenia",
+  "capital": "Ljubljana",
+  "population": 2007000,
+  "area_km2": 20273
+ },
+ {
+  "name": "Spain",
+  "capital": "Madrid",
+  "population": 46505963,
+  "area_km2": 504782
+ }
+]

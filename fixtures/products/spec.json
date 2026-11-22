@@ -1,0 +1,40 @@
+{
+  "request": "product name, price, average rating, number of reviews",
+  "notes": "Sponsored cards share the product-card class; a quarter of products have no rating (null in the truth); numbered pager without a next link.",
+  "schema": {
+    "description": "product name, price, average rating, number of reviews",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "description": "product name"
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "price in USD"
+      },
+      {
+        "name": "rating",
+        "type": "number",
+        "description": "average rating out of 5"
+      },
+      {
+        "name": "reviews",
+        "type": "integer",
+        "description": "number of reviews"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://shop.example.test/laptops?page=1",
+      "file": "page1.html"
+    },
+    {
+      "url": "https://shop.example.test/laptops?page=2",
+      "file": "page2.html"
+    }
+  ]
+}

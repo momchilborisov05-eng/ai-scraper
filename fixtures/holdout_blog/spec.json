@@ -1,0 +1,41 @@
+{
+  "request": "post title, author, date (ISO), reading time in minutes, comment count",
+  "notes": "HELD OUT. Author, date and reading time share one meta line; <hr> separators between posts.",
+  "schema": {
+    "description": "post title, author, date (ISO), reading time in minutes, comment count",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "description": "post title"
+      },
+      {
+        "name": "author",
+        "type": "string",
+        "description": "author name"
+      },
+      {
+        "name": "date",
+        "type": "string",
+        "description": "date as YYYY-MM-DD"
+      },
+      {
+        "name": "read_minutes",
+        "type": "integer",
+        "description": "reading time in minutes"
+      },
+      {
+        "name": "comments",
+        "type": "integer",
+        "description": "number of comments"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://blog.example.test/archive?page=1",
+      "file": "page1.html"
+    }
+  ]
+}

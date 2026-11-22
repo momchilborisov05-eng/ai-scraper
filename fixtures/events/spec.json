@@ -1,0 +1,36 @@
+{
+  "request": "event name, date (ISO), venue, ticket price in EUR",
+  "notes": "The ISO date only exists in time@datetime; free events have no price (null).",
+  "schema": {
+    "description": "event name, date (ISO), venue, ticket price in EUR",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string",
+        "description": "event name"
+      },
+      {
+        "name": "date",
+        "type": "string",
+        "description": "date as YYYY-MM-DD"
+      },
+      {
+        "name": "venue",
+        "type": "string",
+        "description": "venue and city"
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "ticket price in EUR"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://events.example.test/upcoming/1",
+      "file": "page1.html"
+    }
+  ]
+}

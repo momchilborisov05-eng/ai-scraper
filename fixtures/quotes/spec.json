@@ -1,0 +1,35 @@
+{
+  "request": "quote text, author, tags",
+  "notes": "Tags are several links joined into one value; 2 pages.",
+  "schema": {
+    "description": "quote text, author, tags",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "text",
+        "type": "string",
+        "description": "the quote"
+      },
+      {
+        "name": "author",
+        "type": "string",
+        "description": "who said it"
+      },
+      {
+        "name": "tags",
+        "type": "string",
+        "description": "comma-separated tags"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://quotes.example.test/page/1/",
+      "file": "page1.html"
+    },
+    {
+      "url": "https://quotes.example.test/page/2/",
+      "file": "page2.html"
+    }
+  ]
+}

@@ -1,0 +1,5944 @@
+{
+ "date": "2026-11-20",
+ "python": "3.12.3",
+ "machine": "Windows 11 (AMD64)",
+ "fixtures": 14,
+ "pages": 19,
+ "gold_rows": 264,
+ "results": [
+  {
+   "fixture": "books",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 3,
+   "pages_expected": 3,
+   "seconds": 0.0497,
+   "methods": [
+    "heuristic",
+    "heuristic",
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 170,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 34,
+   "pred_rows": 34,
+   "matched_rows": 34,
+   "per_field": {
+    "title": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "in_stock": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "books",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 3,
+   "pages_expected": 3,
+   "seconds": 0.0538,
+   "methods": [
+    "induction",
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 170,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 34,
+   "pred_rows": 34,
+   "matched_rows": 34,
+   "per_field": {
+    "title": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "in_stock": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "books",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 3,
+   "pages_expected": 3,
+   "seconds": 0.0684,
+   "methods": [
+    "induction",
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 170,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 34,
+   "pred_rows": 34,
+   "matched_rows": 34,
+   "per_field": {
+    "title": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "in_stock": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 34,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "countries",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0472,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 112,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 28,
+   "pred_rows": 28,
+   "matched_rows": 28,
+   "per_field": {
+    "name": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "capital": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "population": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "area_km2": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "countries",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0495,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 112,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 28,
+   "pred_rows": 28,
+   "matched_rows": 28,
+   "per_field": {
+    "name": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "capital": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "population": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "area_km2": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "countries",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0679,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 112,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 28,
+   "pred_rows": 28,
+   "matched_rows": 28,
+   "per_field": {
+    "name": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "capital": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "population": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "area_km2": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "events",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0117,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 37,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 10,
+   "pred_rows": 10,
+   "matched_rows": 10,
+   "per_field": {
+    "name": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "date": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "venue": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "events",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0131,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 37,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 10,
+   "pred_rows": 10,
+   "matched_rows": 10,
+   "per_field": {
+    "name": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "date": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "venue": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "events",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0174,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 37,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 10,
+   "pred_rows": 10,
+   "matched_rows": 10,
+   "per_field": {
+    "name": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "date": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "venue": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "hn",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0653,
+   "methods": [
+    "heuristic",
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 112,
+   "fp": 38,
+   "fn": 28,
+   "precision": 0.7467,
+   "recall": 0.8,
+   "f1": 0.7724,
+   "gold_rows": 28,
+   "pred_rows": 30,
+   "matched_rows": 28,
+   "per_field": {
+    "title": {
+     "tp": 28,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.9333,
+     "recall": 1.0,
+     "f1": 0.9655
+    },
+    "url": {
+     "tp": 0,
+     "fp": 30,
+     "fn": 28,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "points": {
+     "tp": 28,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.9333,
+     "recall": 1.0,
+     "f1": 0.9655
+    },
+    "author": {
+     "tp": 28,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.9333,
+     "recall": 1.0,
+     "f1": 0.9655
+    },
+    "comments": {
+     "tp": 28,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.9333,
+     "recall": 1.0,
+     "f1": 0.9655
+    }
+   }
+  },
+  {
+   "fixture": "hn",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.076,
+   "methods": [
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 140,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 28,
+   "pred_rows": 28,
+   "matched_rows": 28,
+   "per_field": {
+    "title": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "points": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "comments": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "hn",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0949,
+   "methods": [
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 140,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 28,
+   "pred_rows": 28,
+   "matched_rows": 28,
+   "per_field": {
+    "title": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "points": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "comments": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_blog",
+   "extractor": "heuristic",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.017,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 40,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 8,
+   "pred_rows": 8,
+   "matched_rows": 8,
+   "per_field": {
+    "title": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "date": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "read_minutes": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "comments": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_blog",
+   "extractor": "induction-1",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0181,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 40,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 8,
+   "pred_rows": 8,
+   "matched_rows": 8,
+   "per_field": {
+    "title": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "date": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "read_minutes": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "comments": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_blog",
+   "extractor": "induction-2",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0228,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 40,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 8,
+   "pred_rows": 8,
+   "matched_rows": 8,
+   "per_field": {
+    "title": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "date": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "read_minutes": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "comments": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_forum",
+   "extractor": "heuristic",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0129,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 48,
+   "fp": 8,
+   "fn": 12,
+   "precision": 0.8571,
+   "recall": 0.8,
+   "f1": 0.8276,
+   "gold_rows": 12,
+   "pred_rows": 14,
+   "matched_rows": 12,
+   "per_field": {
+    "topic": {
+     "tp": 12,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.8571,
+     "recall": 1.0,
+     "f1": 0.9231
+    },
+    "replies": {
+     "tp": 12,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.8571,
+     "recall": 1.0,
+     "f1": 0.9231
+    },
+    "views": {
+     "tp": 12,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.8571,
+     "recall": 1.0,
+     "f1": 0.9231
+    },
+    "last_poster": {
+     "tp": 12,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.8571,
+     "recall": 1.0,
+     "f1": 0.9231
+    },
+    "pinned": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 12,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_forum",
+   "extractor": "induction-1",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0152,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 48,
+   "fp": 12,
+   "fn": 12,
+   "precision": 0.8,
+   "recall": 0.8,
+   "f1": 0.8,
+   "gold_rows": 12,
+   "pred_rows": 12,
+   "matched_rows": 12,
+   "per_field": {
+    "topic": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "replies": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "views": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "last_poster": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "pinned": {
+     "tp": 0,
+     "fp": 12,
+     "fn": 12,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_forum",
+   "extractor": "induction-2",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0202,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 48,
+   "fp": 12,
+   "fn": 12,
+   "precision": 0.8,
+   "recall": 0.8,
+   "f1": 0.8,
+   "gold_rows": 12,
+   "pred_rows": 12,
+   "matched_rows": 12,
+   "per_field": {
+    "topic": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "replies": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "views": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "last_poster": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "pinned": {
+     "tp": 0,
+     "fp": 12,
+     "fn": 12,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_specs",
+   "extractor": "heuristic",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0143,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 28,
+   "fp": 17,
+   "fn": 7,
+   "precision": 0.6222,
+   "recall": 0.8,
+   "f1": 0.7,
+   "gold_rows": 7,
+   "pred_rows": 9,
+   "matched_rows": 7,
+   "per_field": {
+    "model": {
+     "tp": 0,
+     "fp": 9,
+     "fn": 7,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "weight_kg": {
+     "tp": 7,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.7778,
+     "recall": 1.0,
+     "f1": 0.875
+    },
+    "battery_hours": {
+     "tp": 7,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.7778,
+     "recall": 1.0,
+     "f1": 0.875
+    },
+    "ram_gb": {
+     "tp": 7,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.7778,
+     "recall": 1.0,
+     "f1": 0.875
+    },
+    "price": {
+     "tp": 7,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.7778,
+     "recall": 1.0,
+     "f1": 0.875
+    }
+   }
+  },
+  {
+   "fixture": "holdout_specs",
+   "extractor": "induction-1",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0166,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 35,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 7,
+   "pred_rows": 7,
+   "matched_rows": 7,
+   "per_field": {
+    "model": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "weight_kg": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "battery_hours": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "ram_gb": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_specs",
+   "extractor": "induction-2",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0213,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 35,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 7,
+   "pred_rows": 7,
+   "matched_rows": 7,
+   "per_field": {
+    "model": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "weight_kg": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "battery_hours": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "ram_gb": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 7,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_wiki",
+   "extractor": "heuristic",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0126,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 56,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 14,
+   "pred_rows": 14,
+   "matched_rows": 14,
+   "per_field": {
+    "rank": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "city": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "population": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "founded": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_wiki",
+   "extractor": "induction-1",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0131,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 56,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 14,
+   "pred_rows": 14,
+   "matched_rows": 14,
+   "per_field": {
+    "rank": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "city": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "population": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "founded": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "holdout_wiki",
+   "extractor": "induction-2",
+   "split": "holdout",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0165,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 56,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 14,
+   "pred_rows": 14,
+   "matched_rows": 14,
+   "per_field": {
+    "rank": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "city": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "population": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "founded": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "jobs",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0163,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 84,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 14,
+   "pred_rows": 14,
+   "matched_rows": 14,
+   "per_field": {
+    "title": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "company": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "location": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "salary_min": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "remote": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "jobs",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0218,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 84,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 14,
+   "pred_rows": 14,
+   "matched_rows": 14,
+   "per_field": {
+    "title": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "company": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "location": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "salary_min": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "remote": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "jobs",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0352,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 84,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 14,
+   "pred_rows": 14,
+   "matched_rows": 14,
+   "per_field": {
+    "title": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "company": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "location": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "salary_min": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "remote": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "url": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "products",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0202,
+   "methods": [
+    "heuristic",
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 74,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 22,
+   "pred_rows": 22,
+   "matched_rows": 22,
+   "per_field": {
+    "name": {
+     "tp": 22,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 22,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "reviews": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "products",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0203,
+   "methods": [
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 74,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 22,
+   "pred_rows": 22,
+   "matched_rows": 22,
+   "per_field": {
+    "name": {
+     "tp": 22,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 22,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "reviews": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "products",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0252,
+   "methods": [
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 74,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 22,
+   "pred_rows": 22,
+   "matched_rows": 22,
+   "per_field": {
+    "name": {
+     "tp": 22,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 22,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "reviews": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "quotes",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0183,
+   "methods": [
+    "heuristic",
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 54,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 18,
+   "pred_rows": 18,
+   "matched_rows": 18,
+   "per_field": {
+    "text": {
+     "tp": 18,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 18,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "tags": {
+     "tp": 18,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "quotes",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0189,
+   "methods": [
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 37,
+   "fp": 20,
+   "fn": 17,
+   "precision": 0.6491,
+   "recall": 0.6852,
+   "f1": 0.6667,
+   "gold_rows": 18,
+   "pred_rows": 19,
+   "matched_rows": 18,
+   "per_field": {
+    "text": {
+     "tp": 18,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9474,
+     "recall": 1.0,
+     "f1": 0.973
+    },
+    "author": {
+     "tp": 18,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9474,
+     "recall": 1.0,
+     "f1": 0.973
+    },
+    "tags": {
+     "tp": 1,
+     "fp": 18,
+     "fn": 17,
+     "precision": 0.0526,
+     "recall": 0.0556,
+     "f1": 0.0541
+    }
+   }
+  },
+  {
+   "fixture": "quotes",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 2,
+   "pages_expected": 2,
+   "seconds": 0.0215,
+   "methods": [
+    "induction",
+    "induction"
+   ],
+   "errors": [],
+   "tp": 54,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 18,
+   "pred_rows": 18,
+   "matched_rows": 18,
+   "per_field": {
+    "text": {
+     "tp": 18,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "author": {
+     "tp": 18,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "tags": {
+     "tp": 18,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "real_estate",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0169,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 12,
+   "pred_rows": 12,
+   "matched_rows": 12,
+   "per_field": {
+    "address": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "beds": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "baths": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "sqft": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "real_estate",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0176,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 12,
+   "pred_rows": 12,
+   "matched_rows": 12,
+   "per_field": {
+    "address": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "beds": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "baths": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "sqft": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "real_estate",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0286,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 60,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 12,
+   "pred_rows": 12,
+   "matched_rows": 12,
+   "per_field": {
+    "address": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "beds": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "baths": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "sqft": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "repos",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0202,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 49,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 13,
+   "pred_rows": 13,
+   "matched_rows": 13,
+   "per_field": {
+    "repo": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "description": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "language": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "stars": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "repos",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0226,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 49,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 13,
+   "pred_rows": 13,
+   "matched_rows": 13,
+   "per_field": {
+    "repo": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "description": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "language": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "stars": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "repos",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0321,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 49,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 13,
+   "pred_rows": 13,
+   "matched_rows": 13,
+   "per_field": {
+    "repo": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "description": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "language": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "stars": {
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "restaurants",
+   "extractor": "heuristic",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0244,
+   "methods": [
+    "heuristic"
+   ],
+   "errors": [],
+   "tp": 80,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 16,
+   "pred_rows": 16,
+   "matched_rows": 16,
+   "per_field": {
+    "name": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "cuisine": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "reviews": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price_level": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "restaurants",
+   "extractor": "induction-1",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0258,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 80,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 16,
+   "pred_rows": 16,
+   "matched_rows": 16,
+   "per_field": {
+    "name": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "cuisine": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "reviews": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price_level": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  },
+  {
+   "fixture": "restaurants",
+   "extractor": "induction-2",
+   "split": "dev",
+   "pages": 1,
+   "pages_expected": 1,
+   "seconds": 0.0311,
+   "methods": [
+    "induction"
+   ],
+   "errors": [],
+   "tp": 80,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "gold_rows": 16,
+   "pred_rows": 16,
+   "matched_rows": 16,
+   "per_field": {
+    "name": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "cuisine": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "rating": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "reviews": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "price_level": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    }
+   }
+  }
+ ],
+ "summary": {
+  "heuristic": {
+   "tp": 1004,
+   "fp": 63,
+   "fn": 47,
+   "precision": 0.941,
+   "recall": 0.9553,
+   "f1": 0.9481
+  },
+  "heuristic@dev": {
+   "tp": 832,
+   "fp": 38,
+   "fn": 28,
+   "precision": 0.9563,
+   "recall": 0.9674,
+   "f1": 0.9618
+  },
+  "induction-1": {
+   "tp": 1022,
+   "fp": 32,
+   "fn": 29,
+   "precision": 0.9696,
+   "recall": 0.9724,
+   "f1": 0.971
+  },
+  "induction-1@dev": {
+   "tp": 843,
+   "fp": 20,
+   "fn": 17,
+   "precision": 0.9768,
+   "recall": 0.9802,
+   "f1": 0.9785
+  },
+  "induction-2": {
+   "tp": 1039,
+   "fp": 12,
+   "fn": 12,
+   "precision": 0.9886,
+   "recall": 0.9886,
+   "f1": 0.9886
+  },
+  "induction-2@dev": {
+   "tp": 860,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "heuristic@holdout": {
+   "tp": 172,
+   "fp": 25,
+   "fn": 19,
+   "precision": 0.8731,
+   "recall": 0.9005,
+   "f1": 0.8866
+  },
+  "induction-1@holdout": {
+   "tp": 179,
+   "fp": 12,
+   "fn": 12,
+   "precision": 0.9372,
+   "recall": 0.9372,
+   "f1": 0.9372
+  },
+  "induction-2@holdout": {
+   "tp": 179,
+   "fp": 12,
+   "fn": 12,
+   "precision": 0.9372,
+   "recall": 0.9372,
+   "f1": 0.9372
+  }
+ },
+ "speed": {
+  "heuristic": {
+   "pages": 19,
+   "seconds": 0.347,
+   "pages_per_s": 54.8,
+   "ms_per_page": 18.26
+  },
+  "induction-1": {
+   "pages": 19,
+   "seconds": 0.3824,
+   "pages_per_s": 49.7,
+   "ms_per_page": 20.13
+  },
+  "induction-2": {
+   "pages": 19,
+   "seconds": 0.5031,
+   "pages_per_s": 37.8,
+   "ms_per_page": 26.48
+  }
+ },
+ "tokens": {
+  "pages": 19,
+  "total": {
+   "html": 40012,
+   "text": 17597,
+   "sent": 17539
+  },
+  "reduction_text_pct": 56.0,
+  "reduction_sent_pct": 56.2,
+  "per_page": [
+   {
+    "fixture": "books",
+    "url": "https://books.example.test/catalogue/page-1.html",
+    "html": 2910,
+    "text": 1492,
+    "sent": 1496
+   },
+   {
+    "fixture": "books",
+    "url": "https://books.example.test/catalogue/page-2.html",
+    "html": 2932,
+    "text": 1514,
+    "sent": 1518
+   },
+   {
+    "fixture": "books",
+    "url": "https://books.example.test/catalogue/page-3.html",
+    "html": 2913,
+    "text": 1484,
+    "sent": 1489
+   },
+   {
+    "fixture": "countries",
+    "url": "https://countries.example.test/simple/1",
+    "html": 3749,
+    "text": 798,
+    "sent": 807
+   },
+   {
+    "fixture": "events",
+    "url": "https://events.example.test/upcoming/1",
+    "html": 1315,
+    "text": 619,
+    "sent": 623
+   },
+   {
+    "fixture": "hn",
+    "url": "https://news.example.test/news?p=1",
+    "html": 3225,
+    "text": 1088,
+    "sent": 1067
+   },
+   {
+    "fixture": "hn",
+    "url": "https://news.example.test/news?p=2",
+    "html": 3196,
+    "text": 1073,
+    "sent": 1052
+   },
+   {
+    "fixture": "holdout_blog",
+    "url": "https://blog.example.test/archive?page=1",
+    "html": 1663,
+    "text": 1070,
+    "sent": 1074
+   },
+   {
+    "fixture": "holdout_forum",
+    "url": "https://forum.example.test/c/general/1",
+    "html": 1372,
+    "text": 609,
+    "sent": 590
+   },
+   {
+    "fixture": "holdout_specs",
+    "url": "https://compare.example.test/laptops/1",
+    "html": 1003,
+    "text": 444,
+    "sent": 447
+   },
+   {
+    "fixture": "holdout_wiki",
+    "url": "https://wiki.example.test/List_of_cities/1",
+    "html": 1106,
+    "text": 579,
+    "sent": 555
+   },
+   {
+    "fixture": "jobs",
+    "url": "https://jobs.example.test/search?page=1",
+    "html": 2275,
+    "text": 961,
+    "sent": 967
+   },
+   {
+    "fixture": "products",
+    "url": "https://shop.example.test/laptops?page=1",
+    "html": 1738,
+    "text": 779,
+    "sent": 783
+   },
+   {
+    "fixture": "products",
+    "url": "https://shop.example.test/laptops?page=2",
+    "html": 1716,
+    "text": 772,
+    "sent": 776
+   },
+   {
+    "fixture": "quotes",
+    "url": "https://quotes.example.test/page/1/",
+    "html": 1614,
+    "text": 803,
+    "sent": 806
+   },
+   {
+    "fixture": "quotes",
+    "url": "https://quotes.example.test/page/2/",
+    "html": 1682,
+    "text": 900,
+    "sent": 902
+   },
+   {
+    "fixture": "real_estate",
+    "url": "https://homes.example.test/for-sale/1",
+    "html": 1676,
+    "text": 760,
+    "sent": 765
+   },
+   {
+    "fixture": "repos",
+    "url": "https://code.example.test/trending/1",
+    "html": 2504,
+    "text": 1135,
+    "sent": 1140
+   },
+   {
+    "fixture": "restaurants",
+    "url": "https://eats.example.test/city/1",
+    "html": 1423,
+    "text": 717,
+    "sent": 682
+   }
+  ]
+ },
+ "cache_stub": {
+  "runs": [
+   {
+    "run": 1,
+    "api_calls": 19,
+    "seconds": 0.172
+   },
+   {
+    "run": 2,
+    "api_calls": 0,
+    "seconds": 0.162
+   }
+  ],
+  "entries": 19
+ },
+ "claude": {
+  "model": "claude-opus-5-5",
+  "date": "2026-11-20",
+  "budget_usd": 0.8,
+  "spent_usd": 0.4396,
+  "results": [
+   {
+    "fixture": "books",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 3,
+    "pages_expected": 3,
+    "seconds": 0.1025,
+    "methods": [
+     "claude",
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 170,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 34,
+    "pred_rows": 34,
+    "matched_rows": 34,
+    "per_field": {
+     "title": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "in_stock": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 3,
+     "cache_misses": 0,
+     "saved_tokens": 12598,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.08848
+    }
+   },
+   {
+    "fixture": "countries",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0677,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 112,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 28,
+    "pred_rows": 28,
+    "matched_rows": 28,
+    "per_field": {
+     "name": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "capital": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "population": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "area_km2": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3226,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.0304
+    }
+   },
+   {
+    "fixture": "events",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0202,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 37,
+    "fp": 3,
+    "fn": 0,
+    "precision": 0.925,
+    "recall": 1.0,
+    "f1": 0.961,
+    "gold_rows": 10,
+    "pred_rows": 10,
+    "matched_rows": 10,
+    "per_field": {
+     "name": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "date": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "venue": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 7,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.7,
+      "recall": 1.0,
+      "f1": 0.8235
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2440,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01922
+    }
+   },
+   {
+    "fixture": "hn",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0784,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 140,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 28,
+    "pred_rows": 28,
+    "matched_rows": 28,
+    "per_field": {
+     "title": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "points": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "comments": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 6613,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.04762
+    }
+   },
+   {
+    "fixture": "holdout_blog",
+    "extractor": "claude",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0151,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 40,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 8,
+    "pred_rows": 8,
+    "matched_rows": 8,
+    "per_field": {
+     "title": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "date": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "read_minutes": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "comments": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3079,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02163
+    }
+   },
+   {
+    "fixture": "holdout_forum",
+    "extractor": "claude",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0156,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 12,
+    "pred_rows": 12,
+    "matched_rows": 12,
+    "per_field": {
+     "topic": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "replies": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "views": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "last_poster": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "pinned": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2435,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02051
+    }
+   },
+   {
+    "fixture": "holdout_specs",
+    "extractor": "claude",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0191,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 35,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 7,
+    "pred_rows": 7,
+    "matched_rows": 7,
+    "per_field": {
+     "model": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "weight_kg": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "battery_hours": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "ram_gb": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2179,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01666
+    }
+   },
+   {
+    "fixture": "holdout_wiki",
+    "extractor": "claude",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0154,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 56,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 14,
+    "pred_rows": 14,
+    "matched_rows": 14,
+    "per_field": {
+     "rank": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "city": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "population": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "founded": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2311,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01762
+    }
+   },
+   {
+    "fixture": "jobs",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0181,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 84,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 14,
+    "pred_rows": 14,
+    "matched_rows": 14,
+    "per_field": {
+     "title": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "company": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "location": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "salary_min": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "remote": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3743,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03321
+    }
+   },
+   {
+    "fixture": "products",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0253,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 74,
+    "fp": 7,
+    "fn": 0,
+    "precision": 0.9136,
+    "recall": 1.0,
+    "f1": 0.9548,
+    "gold_rows": 22,
+    "pred_rows": 22,
+    "matched_rows": 22,
+    "per_field": {
+     "name": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "reviews": {
+      "tp": 15,
+      "fp": 7,
+      "fn": 0,
+      "precision": 0.6818,
+      "recall": 1.0,
+      "f1": 0.8108
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 5419,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03543
+    }
+   },
+   {
+    "fixture": "quotes",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0187,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 54,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 18,
+    "pred_rows": 18,
+    "matched_rows": 18,
+    "per_field": {
+     "text": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "tags": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 5295,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03504
+    }
+   },
+   {
+    "fixture": "real_estate",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0105,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 12,
+    "pred_rows": 12,
+    "matched_rows": 12,
+    "per_field": {
+     "address": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "beds": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "baths": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "sqft": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3018,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02311
+    }
+   },
+   {
+    "fixture": "repos",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0198,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 49,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 13,
+    "pred_rows": 13,
+    "matched_rows": 13,
+    "per_field": {
+     "repo": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "description": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "language": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "stars": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3168,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02383
+    }
+   },
+   {
+    "fixture": "restaurants",
+    "extractor": "claude",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0135,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 80,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 16,
+    "pred_rows": 16,
+    "matched_rows": 16,
+    "per_field": {
+     "name": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "cuisine": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "reviews": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price_level": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3025,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02687
+    }
+   },
+   {
+    "fixture": "books",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 3,
+    "pages_expected": 3,
+    "seconds": 0.1057,
+    "methods": [
+     "claude",
+     "wrapper",
+     "wrapper"
+    ],
+    "errors": [],
+    "tp": 170,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 34,
+    "pred_rows": 34,
+    "matched_rows": 34,
+    "per_field": {
+     "title": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "in_stock": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 4220,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03235
+    }
+   },
+   {
+    "fixture": "countries",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.1207,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 112,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 28,
+    "pred_rows": 28,
+    "matched_rows": 28,
+    "per_field": {
+     "name": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "capital": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "population": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "area_km2": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3226,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.0304
+    }
+   },
+   {
+    "fixture": "events",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0291,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 37,
+    "fp": 3,
+    "fn": 0,
+    "precision": 0.925,
+    "recall": 1.0,
+    "f1": 0.961,
+    "gold_rows": 10,
+    "pred_rows": 10,
+    "matched_rows": 10,
+    "per_field": {
+     "name": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "date": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "venue": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 7,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.7,
+      "recall": 1.0,
+      "f1": 0.8235
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2440,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01922
+    }
+   },
+   {
+    "fixture": "hn",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.1358,
+    "methods": [
+     "claude",
+     "wrapper"
+    ],
+    "errors": [],
+    "tp": 140,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 28,
+    "pred_rows": 28,
+    "matched_rows": 28,
+    "per_field": {
+     "title": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "points": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "comments": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3350,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02621
+    }
+   },
+   {
+    "fixture": "holdout_blog",
+    "extractor": "hybrid",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0419,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 40,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 8,
+    "pred_rows": 8,
+    "matched_rows": 8,
+    "per_field": {
+     "title": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "date": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "read_minutes": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "comments": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3079,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02163
+    }
+   },
+   {
+    "fixture": "holdout_forum",
+    "extractor": "hybrid",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0365,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 12,
+    "pred_rows": 12,
+    "matched_rows": 12,
+    "per_field": {
+     "topic": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "replies": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "views": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "last_poster": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "pinned": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2435,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02051
+    }
+   },
+   {
+    "fixture": "holdout_specs",
+    "extractor": "hybrid",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0376,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 35,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 7,
+    "pred_rows": 7,
+    "matched_rows": 7,
+    "per_field": {
+     "model": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "weight_kg": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "battery_hours": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "ram_gb": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2179,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01666
+    }
+   },
+   {
+    "fixture": "holdout_wiki",
+    "extractor": "hybrid",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0355,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 56,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 14,
+    "pred_rows": 14,
+    "matched_rows": 14,
+    "per_field": {
+     "rank": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "city": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "population": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "founded": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2311,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01762
+    }
+   },
+   {
+    "fixture": "jobs",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0563,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 84,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 14,
+    "pred_rows": 14,
+    "matched_rows": 14,
+    "per_field": {
+     "title": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "company": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "location": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "salary_min": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "remote": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3743,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03321
+    }
+   },
+   {
+    "fixture": "products",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0394,
+    "methods": [
+     "claude",
+     "wrapper"
+    ],
+    "errors": [],
+    "tp": 74,
+    "fp": 3,
+    "fn": 0,
+    "precision": 0.961,
+    "recall": 1.0,
+    "f1": 0.9801,
+    "gold_rows": 22,
+    "pred_rows": 22,
+    "matched_rows": 22,
+    "per_field": {
+     "name": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "reviews": {
+      "tp": 15,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1": 0.9091
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2677,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01881
+    }
+   },
+   {
+    "fixture": "quotes",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0506,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 54,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 18,
+    "pred_rows": 18,
+    "matched_rows": 18,
+    "per_field": {
+     "text": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "tags": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 5295,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03504
+    }
+   },
+   {
+    "fixture": "real_estate",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0399,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 12,
+    "pred_rows": 12,
+    "matched_rows": 12,
+    "per_field": {
+     "address": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "beds": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "baths": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "sqft": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3018,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02311
+    }
+   },
+   {
+    "fixture": "repos",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.038,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 49,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 13,
+    "pred_rows": 13,
+    "matched_rows": 13,
+    "per_field": {
+     "repo": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "description": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "language": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "stars": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3168,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02383
+    }
+   },
+   {
+    "fixture": "restaurants",
+    "extractor": "hybrid",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0385,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 80,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 16,
+    "pred_rows": 16,
+    "matched_rows": 16,
+    "per_field": {
+     "name": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "cuisine": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "reviews": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price_level": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3025,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02687
+    }
+   },
+   {
+    "fixture": "books",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 3,
+    "pages_expected": 3,
+    "seconds": 0.0331,
+    "methods": [
+     "claude",
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 170,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 34,
+    "pred_rows": 34,
+    "matched_rows": 34,
+    "per_field": {
+     "title": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "in_stock": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 34,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 3,
+     "cache_misses": 0,
+     "saved_tokens": 12598,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.08848
+    }
+   },
+   {
+    "fixture": "countries",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0227,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 112,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 28,
+    "pred_rows": 28,
+    "matched_rows": 28,
+    "per_field": {
+     "name": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "capital": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "population": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "area_km2": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3226,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.0304
+    }
+   },
+   {
+    "fixture": "events",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0071,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 37,
+    "fp": 3,
+    "fn": 0,
+    "precision": 0.925,
+    "recall": 1.0,
+    "f1": 0.961,
+    "gold_rows": 10,
+    "pred_rows": 10,
+    "matched_rows": 10,
+    "per_field": {
+     "name": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "date": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "venue": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 7,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.7,
+      "recall": 1.0,
+      "f1": 0.8235
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2440,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01922
+    }
+   },
+   {
+    "fixture": "hn",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0347,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 140,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 28,
+    "pred_rows": 28,
+    "matched_rows": 28,
+    "per_field": {
+     "title": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "points": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "comments": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 6613,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.04762
+    }
+   },
+   {
+    "fixture": "holdout_blog",
+    "extractor": "claude-rerun",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0099,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 40,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 8,
+    "pred_rows": 8,
+    "matched_rows": 8,
+    "per_field": {
+     "title": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "date": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "read_minutes": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "comments": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3079,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02163
+    }
+   },
+   {
+    "fixture": "holdout_forum",
+    "extractor": "claude-rerun",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0076,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 12,
+    "pred_rows": 12,
+    "matched_rows": 12,
+    "per_field": {
+     "topic": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "replies": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "views": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "last_poster": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "pinned": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2435,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02051
+    }
+   },
+   {
+    "fixture": "holdout_specs",
+    "extractor": "claude-rerun",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0094,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 35,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 7,
+    "pred_rows": 7,
+    "matched_rows": 7,
+    "per_field": {
+     "model": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "weight_kg": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "battery_hours": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "ram_gb": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2179,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01666
+    }
+   },
+   {
+    "fixture": "holdout_wiki",
+    "extractor": "claude-rerun",
+    "split": "holdout",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0074,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 56,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 14,
+    "pred_rows": 14,
+    "matched_rows": 14,
+    "per_field": {
+     "rank": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "city": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "population": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "founded": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 2311,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.01762
+    }
+   },
+   {
+    "fixture": "jobs",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0116,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 84,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 14,
+    "pred_rows": 14,
+    "matched_rows": 14,
+    "per_field": {
+     "title": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "company": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "location": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "salary_min": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "remote": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "url": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3743,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03321
+    }
+   },
+   {
+    "fixture": "products",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0177,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 74,
+    "fp": 7,
+    "fn": 0,
+    "precision": 0.9136,
+    "recall": 1.0,
+    "f1": 0.9548,
+    "gold_rows": 22,
+    "pred_rows": 22,
+    "matched_rows": 22,
+    "per_field": {
+     "name": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "reviews": {
+      "tp": 15,
+      "fp": 7,
+      "fn": 0,
+      "precision": 0.6818,
+      "recall": 1.0,
+      "f1": 0.8108
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 5419,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03543
+    }
+   },
+   {
+    "fixture": "quotes",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 2,
+    "pages_expected": 2,
+    "seconds": 0.0213,
+    "methods": [
+     "claude",
+     "claude"
+    ],
+    "errors": [],
+    "tp": 54,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 18,
+    "pred_rows": 18,
+    "matched_rows": 18,
+    "per_field": {
+     "text": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "author": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "tags": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 2,
+     "cache_misses": 0,
+     "saved_tokens": 5295,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.03504
+    }
+   },
+   {
+    "fixture": "real_estate",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0084,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 60,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 12,
+    "pred_rows": 12,
+    "matched_rows": 12,
+    "per_field": {
+     "address": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "beds": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "baths": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "sqft": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3018,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02311
+    }
+   },
+   {
+    "fixture": "repos",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0099,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 49,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 13,
+    "pred_rows": 13,
+    "matched_rows": 13,
+    "per_field": {
+     "repo": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "description": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "language": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "stars": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3168,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02383
+    }
+   },
+   {
+    "fixture": "restaurants",
+    "extractor": "claude-rerun",
+    "split": "dev",
+    "pages": 1,
+    "pages_expected": 1,
+    "seconds": 0.0102,
+    "methods": [
+     "claude"
+    ],
+    "errors": [],
+    "tp": 80,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "gold_rows": 16,
+    "pred_rows": 16,
+    "matched_rows": 16,
+    "per_field": {
+     "name": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "cuisine": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "rating": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "reviews": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     },
+     "price_level": {
+      "tp": 16,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+     }
+    },
+    "usage": {
+     "requests": 0,
+     "input_tokens": 0,
+     "output_tokens": 0,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "cache_hits": 1,
+     "cache_misses": 0,
+     "saved_tokens": 3025,
+     "repairs": 0,
+     "cost_usd": 0.0,
+     "saved_usd": 0.02687
+    }
+   }
+  ],
+  "totals": {
+   "claude": {
+    "requests": 19,
+    "input_tokens": 30363,
+    "output_tokens": 13078,
+    "cache_read_tokens": 3943,
+    "cache_write_tokens": 11165,
+    "cache_hits": 0,
+    "cache_misses": 19,
+    "saved_tokens": 0,
+    "repairs": 0,
+    "cost_usd": 0.43963,
+    "saved_usd": 0.0
+   },
+   "hybrid": {
+    "requests": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "saved_tokens": 44166,
+    "repairs": 0,
+    "cost_usd": 0.0,
+    "saved_usd": 0.34546
+   },
+   "claude-rerun": {
+    "requests": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "cache_hits": 19,
+    "cache_misses": 0,
+    "saved_tokens": 58549,
+    "repairs": 0,
+    "cost_usd": 0.0,
+    "saved_usd": 0.43963
+   }
+  },
+  "summary": {
+   "claude": {
+    "tp": 1051,
+    "fp": 10,
+    "fn": 0,
+    "precision": 0.9906,
+    "recall": 1.0,
+    "f1": 0.9953
+   },
+   "claude@dev": {
+    "tp": 860,
+    "fp": 10,
+    "fn": 0,
+    "precision": 0.9885,
+    "recall": 1.0,
+    "f1": 0.9942
+   },
+   "claude@holdout": {
+    "tp": 191,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "hybrid": {
+    "tp": 1051,
+    "fp": 6,
+    "fn": 0,
+    "precision": 0.9943,
+    "recall": 1.0,
+    "f1": 0.9972
+   },
+   "hybrid@dev": {
+    "tp": 860,
+    "fp": 6,
+    "fn": 0,
+    "precision": 0.9931,
+    "recall": 1.0,
+    "f1": 0.9965
+   },
+   "hybrid@holdout": {
+    "tp": 191,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "rescored": "2026-11-20"
+ }
+}

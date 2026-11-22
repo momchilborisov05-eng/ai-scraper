@@ -1,0 +1,36 @@
+{
+  "request": "rank, city, population, year founded",
+  "notes": "HELD OUT. Header row inside tbody, footnote markers [n] inside some city cells.",
+  "schema": {
+    "description": "rank, city, population, year founded",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "rank",
+        "type": "integer",
+        "description": "rank"
+      },
+      {
+        "name": "city",
+        "type": "string",
+        "description": "city"
+      },
+      {
+        "name": "population",
+        "type": "integer",
+        "description": "population"
+      },
+      {
+        "name": "founded",
+        "type": "integer",
+        "description": "year founded"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://wiki.example.test/List_of_cities/1",
+      "file": "page1.html"
+    }
+  ]
+}

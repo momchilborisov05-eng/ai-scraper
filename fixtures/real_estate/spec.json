@@ -1,0 +1,41 @@
+{
+  "request": "address, price, bedrooms, bathrooms, square feet",
+  "notes": "Beds, baths and area share one text node ('3 bd · 2 ba · 1,450 sqft').",
+  "schema": {
+    "description": "address, price, bedrooms, bathrooms, square feet",
+    "base_url": "",
+    "fields": [
+      {
+        "name": "address",
+        "type": "string",
+        "description": "street address"
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "description": "asking price"
+      },
+      {
+        "name": "beds",
+        "type": "integer",
+        "description": "bedrooms"
+      },
+      {
+        "name": "baths",
+        "type": "integer",
+        "description": "bathrooms"
+      },
+      {
+        "name": "sqft",
+        "type": "integer",
+        "description": "floor area in square feet"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://homes.example.test/for-sale/1",
+      "file": "page1.html"
+    }
+  ]
+}
