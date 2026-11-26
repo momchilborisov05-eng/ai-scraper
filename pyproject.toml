@@ -24,6 +24,7 @@ ignore = ["E501"]   # HTML fixtures in tests and long prompt strings read better
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
 addopts = "-q"
 
 [tool.coverage.run]
